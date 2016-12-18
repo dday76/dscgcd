@@ -72,7 +72,8 @@ run_analysis <- function(outcome, num = "best") {
      cbd5c <- aggregate(cbd5b[, 2:80], list(cbd5b$subject.activity), mean)
      names(cbd5c)[1] <- "subject.activity.group"
      cbd5c # final result for question 5
-     head(cbd5c[,1:5]) # ending with a quick look at cbd5c final result
-    
+     head(cbd5c[,1:5]) # provides a quick look at cbd5c final result
+     write.table(cbd5c,file="tidy5.txt",row.names=FALSE)
+     
      # I thought it best not to just print cdb4 or cdb5c to screen...      
 }
