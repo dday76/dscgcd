@@ -17,7 +17,7 @@ Also included briefly in codebook and code: I included mean(), meanFreq(), and s
 That was my best estimate of the requirement. I could have added or excluded whatever, but I just made my best guess.
 cbd4, for 1-4, and cbd5c, for 5, are the 'deliverables'. 
 But there wasn't a specific output format requested, so I just output a brief header of cdb5c.
-#5 requested 'a' second data set, so I did the averages by student+activity, not one for student and one for activity.
+Question 5 requested 'a' second data set, so I did the averages by student+activity, not one for student and one for activity.
 I didn't change any of the feature names. They seemed long and cumbersome, but that seemed better than making up my own. They're fine.
 
 ## Raw Data
