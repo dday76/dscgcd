@@ -38,3 +38,4 @@ Data folder includes:
 * Codebook.md - How I got from the raw data to the tidy data and what that tidy data looks like.
 * r_analysis.R - code file to create a tidy data set from the raw data in the working directory, and a second tidy data set of averages.
 * raw_data within its folder "UCI HAR Dataset".
+* tidy5.txt - requested question 5 output
