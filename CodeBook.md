@@ -27,8 +27,10 @@ And I haven't done anything to change the units other than take averages<br />
 tts,x,y=tta;tns,x,y=tna;tta+tna=cbd;<br />
 cbd+activity labels = cbd2; cbd2 columns reordered = cbd3;<br />
 cbd3 with only mean and std = cbd4<br />
+Then cbd5 starts requirement 5, with b for the extra column, and c showing the final frame of averages<br />
+cbd4 and cbd5c are the 'answers' requested<br />
 
-## Importing and combining data
+## Creating first data set (1-4)
 
 1.
 For all files, read.table (no parameters) is the method of import to R.<br />
@@ -69,6 +71,11 @@ I read that to include "meanFreq" measurements.<br />
 fix:[Mm] and -[F] as necessary<br />
 *** Grading Note ***<br />
 A 'keep' variable tells us to keep columns 1:3 and grep the ones that match mean and std.<br />
-That creates cbd4
+That creates cbd4, and we're done.<br />
 
-
+## Creating second data set #5
+'From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.'<br />
+I read that to mean start with cbd4 and create 1 new data set with average of an activity-subject pair.<br />
+I did not read that to mean one for activity and one separate one for subject because it said 'a second' not 'a second and third'<br />
+So first we add a column 'subject.activity' and remove the original column as well as 'type'<br />
+Then the 'aggregate' function will provide the data frame of averages requested as cbd5c<br />
